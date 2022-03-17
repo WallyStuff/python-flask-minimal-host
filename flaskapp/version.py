@@ -11,7 +11,8 @@ install_requires = [
 package_data = {
     "flaskapp": [
         "templates/*.html",
+        "static/favicon.ico",
+        "static/*.css",
         "static/*.js"
-        "static/*.css"
     ]
 }
